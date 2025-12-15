@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    height: 100vh;
+    display: flex;         
+    flex-direction: column;    
+}
+
+.text {
+    font-size: 1rem;
+    color: rgb(58, 8, 8);
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 30vw;
+    background-color: bisque;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vw;
+    background-color: chocolate;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 30vw;
+    background-color: orchid;
+}
